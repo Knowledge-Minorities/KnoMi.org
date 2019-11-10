@@ -1,0 +1,9 @@
+
+# Don't include Node modules directory
+node_modules
+
+# Don't include build directory
+build
+
+# Don't tie this project with JetBrains' IDEs
+.idea

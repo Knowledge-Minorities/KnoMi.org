@@ -1,0 +1,29 @@
+{
+  "name": "KnoMi.org",
+  "version": "0.1.0",
+  "description": "Knowledge & Minorities Website",
+  "main": "src/server.ts",
+  "repository": "https://github.com/Knowledge-Minorities/KnoMi.org.git",
+  "author": "David Reboullet <david@reboullet.org>",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@types/connect": "^3.4.32",
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/serve-static": "^1.13.3",
+    "@types/webpack": "^4.39.8",
+    "connect": "^3.7.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "serve-static": "^1.14.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
