@@ -6,9 +6,9 @@ HTTPPORT=8080
 
 build: clean
 	@printf "Running TypeScript Compiler ...\n"
-	@tsc
+	@yarn run tsc
 	@printf "Running Webpack ...\n"
-	@webpack
+	@yarn run webpack
 	@printf "All built !\n"
 
 clean:
